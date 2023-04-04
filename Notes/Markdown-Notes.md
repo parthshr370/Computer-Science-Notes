@@ -132,9 +132,7 @@ You can align text in the columns to the left, right, or center by adding a colo
 | Left      | Centre       | Here's right   |
 | Paragraph   | Text        | And more      |
 
-
-
-
+This is all you need to know for mastering Markdown
 
 
 

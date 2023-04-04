@@ -10,6 +10,9 @@
 3. `git init` to initialize git in the selected folder it is usually hidden in the directory as a dot(.) file
 4. `git add .` will implement and register the change of a particular file to the staging area . we can say it will stage the file
 5.  `git commit -m “the file has been changed”` is snapshot of your project, where a new version of that project is created in the current repository with a comment called “a file has been added”
+
+6. The **-m** in `commit -m` is the message you want to display along with the message 
+
 6.  `git status` tells us the status of the current repository , if there is any branch to commit or anything else.
 7.  `git restore —staged names.txt` will remove the file from the staging area and restore the original file
 8.  `git log` will tell you the logs of all the actions that took place in the file . all the commits with specific hashid
@@ -42,4 +45,34 @@
 35.  squash will convert all the commits into the commit previous to them pick is the exact opposite
 36.  `git checkout <branch name>` will switch the branch
 37.  `git merge <branch name>` merges the branch with the current working branch
-38.  `git config user.email "partshr370@gmail.com”` to register your github username
+38.  `git config user.email "<youremail@xyz.com>”` to register your github username
+
+39. Whenever i tried to push the file by using `git push origin master ` you will be asked your username and password. It might show errors like `remote: Support for password authentication was removed on August 13, 2021.`
+to solve this 
+   * Go to `settings` --> `developer settings` --> `Generate Token(classic)` --> Generate a token by `ticking all the boxes` 
+
+     * Make sure to **copy the token code** and then put the copied token code in the password section while pushing the code 
+
+
+ To create a new file and add it to origin 
+
+```
+echo "# new" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:parthshr370/new.gitgit push -u origin main
+```
+
+To add an existing repository
+
+```
+git remote add origin git@github.com:parthshr370/new.gitgit branch -M main
+git push -u origin main
+
+```
+
+The use of `-u` is to **upload**  
+
+So the last line of the code says that push and upload the file to the main branch of the origin file

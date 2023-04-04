@@ -16,7 +16,7 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 
 ### 1. Basics
 
-* Markdown
+* [Markdown](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Markdown-Notes.md)
 * Linux
 * Git (command line)
 * Networking

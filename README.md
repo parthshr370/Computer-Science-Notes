@@ -18,8 +18,8 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 
 * [Markdown](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Markdown-Notes.md)
 * Linux
-* Git (command line)
-* Networking
+* [Git (command line)](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Git%20and%20Github.md)
+* [Networking](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Computer%20Networking.md)
 
 
 

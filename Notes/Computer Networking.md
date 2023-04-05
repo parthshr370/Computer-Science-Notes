@@ -4,7 +4,7 @@
 
 
 
-_**GOAL - TO LEARN HOW ALL COMPUTERS AND NETWORKS CONNECT AND WORK TOGETHER**_
+_**TO LEARN HOW ALL COMPUTERS AND NETWORKS CONNECT AND WORK TOGETHER**_
 
 1.  Based on client server architecture
 2.  A system can act as a sever and a client

@@ -76,3 +76,12 @@ git push -u origin main
 The use of `-u` is to **upload**  
 
 So the last line of the code says that push and upload the file to the main branch of the origin file
+
+
+40.  *"The tip of your current branch is behind its remote counterpart"* means that there have been changes on the remote branch that you don’t have locally. And Git tells you to import new changes from **REMOTE** and merge it with your code and then push it to remote.
+
+You can use this command to force changes to the server with the **local repository** (). remote repo code will be replaced with your local repo code.
+
+`git push -f origin master`
+
+With the `-f` tag you will override the remote branch code with your local repo code.

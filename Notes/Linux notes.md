@@ -83,6 +83,7 @@ _**COMMAND LINE CODES**_
 76.  `lsblk` is **used to display details about block devices** and these block devices.
 77.  `lspci` is a command on Unix-like operating systems that prints ("lists") detailed information about all PCI buses and devices in the system
 78. `.` means the current directory `..` means the previous directory
+79.  `echo $PATH` to find which directories your shell is set to check for executable files.
 78.  Notes on using vim in linux terminal
 
 -   `vim hello.c` will create the file and then vim opens up in the terminal

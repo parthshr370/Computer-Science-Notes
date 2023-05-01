@@ -82,6 +82,7 @@ _**COMMAND LINE CODES**_
 75.  `g++` for running c codes in linux with mathematical operations
 76.  `lsblk` is **used to display details about block devices** and these block devices.
 77.  `lspci` is a command on Unix-like operating systems that prints ("lists") detailed information about all PCI buses and devices in the system
+78. `.` means the current directory `..` means the previous directory
 78.  Notes on using vim in linux terminal
 
 -   `vim hello.c` will create the file and then vim opens up in the terminal

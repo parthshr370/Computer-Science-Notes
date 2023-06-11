@@ -23,6 +23,9 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 
 * [Vim](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Vim.md)
 
+### 2. Language
+* [Java](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Java.md)
+* [Python](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Python.md)
 
 
 

@@ -605,3 +605,167 @@ point.x = 10 # tells us the value of x in point object
 point.y = 20 # tells us the value of y in point
 point.meth() #initiates the class in the object
 ```
+78. Code to print matrix multiplication on python
+```python
+A = [[12, 7, 3],
+	[4, 5, 6],
+	[4,7,2,2]
+ 
+ ]
+
+B = [[4,6,5,6],
+	[6,7,4,2],
+	[4, 5, 4, 1]]
+	
+result = [[0, 0, 0, 0],
+		[0, 0, 0, 0],
+		[0, 0, 0, 0]]
+
+
+
+for i in range(0,len(A)):
+	for j in range(0,len(B[0])):
+		for k in range(0,len( B)):
+			result[i][j] += A[i][k] *B[k][j]
+   
+   
+for final in result:
+	print(final)
+
+```
+
+79. The self parameter is **a reference to the current instance of the class, and is used to access variables that belongs to the class**.
+80. A constructor is a function that gets called when creating an object 
+81. self is used when we want to reference the current object in the class 
+82.  `._init_.` method is used to initialise our objects
+83. We use constructor to create attributes within the program 
+```python 
+class point():
+    def __init__(self,x,y): 
+        self.x = x 
+        self.y = y 
+        
+    def move(self):
+        print("helloworld")
+        
+    def hello(self):
+        print("kaise ho")
+        
+        
+new = point(22,44)
+print (new)
+
+
+        
+```
+We use self to reference the current object then we use `.x` as the attribute in the object and then we define the attribute  inside a variable x . Which names itself as x and when we mention the coordinates in `new` variable and then print new
+
+84.  In programming we do not define something twice in a class so we use inheritance 
+85. **Multithreading:** Is a system in which multiple threads are created of a process for increasing the computing speed of the system. In multithreading, many threads of a process are executed simultaneously and process creation in multithreading is done according to economical.
+86. Multithreading is the process of distribution of one cpu component into multiple threads while multiprocessing is the process of increasing the number of cpu to produce better output
+87. It is a mechanism that allows you to create a **hierarchy of classes** that share a set of properties and methods by deriving a class from another class. Inheritance is the capability of one class to derive or inherit the properties from another class.
+88. For example mammals have certain properties in the animal system that can also applied to dogs and cat so we create an inhertiance class named `mammal` that will contain certain properties that will also apply to classes like `dogs` and `cats` .
+```python
+class Mammals:
+    
+    def walk(self):
+     print("walking is compulsary")
+    
+    
+class Dog(Mammals):
+    
+    pass
+
+
+class Cat(Mammals):
+    pass 
+
+sheru = Dog()
+
+sheru.walk()
+```
+This creates a class names `mammals` that has a common property of walking and when we add `Mammals` in the parameters of both `dogs` and `cats` , they inherit the `walk` function.
+
+89. A Python **module** is a file containing Python definitions and statements. A module can define **functions, classes, and variables**. A module can also include runnable code. Grouping related code into a module makes the code easier to understand and use. It also makes the code logically organised.
+90. We create a separate file with our module `.py` and then in another file we can import the file as `import module_name.py ` at the start of the file 
+```python
+import Firstcode # this will act like an object
+
+print(Firstcode.kg_pound(70)) # enter the value you want to put inside to return 
+
+print(Firstcode.pound_kg(44))
+
+```
+We can also print specific function from a module using 
+```python 
+import module_name 
+from module_name import function_name
+```
+We break up our code in multiple files to create specific tasks 
+
+91. Packages are basically folders that contain modules , classes , functions ,variables etc .
+92. Steps to create a package in python
+  * Create a folder name my_package
+  * Inside this folder create an empty python file names `__init__.py ` 
+  * Then create two modules inside the same folder lets name them mod1 and mod2
+  *  `__init__.py` helps the Python interpreter **recognize the folder as a package**. It also specifies the **resources to be imported** from the modules. If the `__init__.p`y is empty this means that **all the functions** of the modules will be imported.
+
+93. We will import the modules from the above-created package and will use the functions inside those modules.
+```python
+from mypckg import mod1
+from mypckg import mod2
+ 
+mod1.gfg()
+res = mod2.sum(1, 2)
+print(res)
+```
+
+94. Python has created a lot of module indexes for us to perform various tasks out of the box .
+95. Just search up `python 3 module index` 
+```python 
+import random 
+
+for i in range(3):
+   print(random.randint(10,20))
+```
+This program is used to print random values in a code this will print out 3 values that will range between 10 and 20 
+
+### Working with directories
+
+96.  We can use both Absolute path and relative path 
+97. Absolute means we can create a path directly from our computer like` /home/code/python` or `usr/local/bin`
+```python 
+from pathlib import Path # here path is a class since capital 
+
+Path() # if the parenthesis is empty then we take the default directory
+
+Path("ecommerce")
+```
+
+```python
+from pathlib import Path
+
+dest = Path("emails")
+print(path.rmdir())
+
+```
+
+98. PIP is the package manager for Python packages . We can use PIP to install packages that do not come with Python. \
+```python
+pip install Numpy
+```
+To install `pip`
+```PYTHON
+pip list
+```
+Will display all the pip packages installed in the system
+```python
+pip show numpy
+```
+Will show package details
+```python 
+pip freeze
+```
+Lists packages that don't come pre-installed with python
+
+99. We use jupyter notebook because it allows us to run code blocks in the form of cells and check the output.

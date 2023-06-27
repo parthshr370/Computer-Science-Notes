@@ -85,3 +85,6 @@ You can use this command to force changes to the server with the **local reposit
 `git push -f origin master`
 
 With the `-f` tag you will override the remote branch code with your local repo code.
+
+41. `git whatchanged --since "1 week"` will give you all the changes made to repository in the timeframe
+

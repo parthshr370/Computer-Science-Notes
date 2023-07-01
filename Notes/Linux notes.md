@@ -85,6 +85,7 @@ _**COMMAND LINE CODES**_
 78. `.` means the current directory `..` means the previous directory
 79.  `echo $PATH` to find which directories your shell is set to check for executable files.
 78.  Notes on using vim in linux terminal
+79. `pwd` command prints out the current working directory (root for most cases)
 
 -   `vim hello.c` will create the file and then vim opens up in the terminal
 -   `vim filename.txt` to open a text file in vim text editor

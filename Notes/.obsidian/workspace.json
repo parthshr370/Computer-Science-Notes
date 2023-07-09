@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numpy.md",
+                "file": "Computer Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "463174c2574b983c",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numpy.md",
+                "file": "Computer Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numpy.md",
+                "file": "Computer Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numpy.md"
+                "file": "Computer Networking.md"
               }
             }
           }
@@ -162,8 +161,8 @@
   },
   "active": "c82499d8a3f4752b",
   "lastOpenFiles": [
-    "Python.md",
     "Numpy.md",
+    "Python.md",
     "Vim.md",
     "Untitled.md",
     "Java.md",

@@ -86,6 +86,11 @@ _**COMMAND LINE CODES**_
 79.  `echo $PATH` to find which directories your shell is set to check for executable files.
 78.  Notes on using vim in linux terminal
 79. `pwd` command prints out the current working directory (root for most cases)
+80. `last` will show the user login history
+81. `who` tells about who is logged in 
+82. `ip addr` to display ip details 
+85. `ip route show` will display routing table containing info about network destination 
+86. 
 
 -   `vim hello.c` will create the file and then vim opens up in the terminal
 -   `vim filename.txt` to open a text file in vim text editor

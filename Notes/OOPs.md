@@ -1,3 +1,8 @@
+# Object Oriented Progamming
+
+## Using Java
+
+
 1. Object is a software bundle with certain state and behaviour . Used to model the real world objects that we find in everyday life.
 2. Class is a **blueprint** or **prototype** which objects are created . It contains functions which are like blocs of code to execute some task. 
 3. A **package** is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer

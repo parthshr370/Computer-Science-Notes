@@ -26,6 +26,8 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 ### 2. Language
 * [Java](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Java.md)
 
+  - [Object Oriented Programming](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/OOPs.md)
+
 * [Python](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Python.md)
     
     * [Numpy](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Numpy.md)

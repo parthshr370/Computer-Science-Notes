@@ -511,6 +511,7 @@ print(x)
 #output is ['welcome', 'to', 'jungle']
 ```
 
+
 ### Functions
 
 57. **Python Functions** is a block of statements that return the specific task.
@@ -769,3 +770,13 @@ pip freeze
 Lists packages that don't come pre-installed with python
 
 99. We use jupyter notebook because it allows us to run code blocks in the form of cells and check the output.
+
+100. List slicing is a feature in python lists that works by providing two indices seperated by a colon 
+
+```python 
+mylist = [3,4,5,2,8,4]
+result = mylist[-3:-1] #location telling of the given list
+print(result)
+
+# this will give me the numbers at -1 location and -3 location ie [2,1]
+```

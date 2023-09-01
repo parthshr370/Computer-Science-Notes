@@ -11,16 +11,23 @@
 
 After the completion of the task the pointer moves immediately to the new instruction in the RAM
 5. This instruction pointer is stored in a **register** .Registers are small storage buckets that are extremely fast for the CPU to read and write to
+
 6. At the end of this process there’s machine code in a file somewhere. The operating system loads the file into RAM and instructs the CPU to jump the instruction pointer to that position in RAM. The CPU *continues running its fetch-execute cycle as usual*, so the program begins executing.
-7. When you boot up your computer the instruction pointer starts at a programs somewhere that program is the **kernel** . Kernel has the full access to the computer memory, peripheral and other resources. 
+
+7. When you boot up your computer the instruction pointer starts at a programs somewhere that program is the **kernel** . Kernel has the full access to the computer memory, peripheral and other resources.
+  
 8. **Windows kernel** is called ***NT Kernel***
-9. Modern architecture have 2 modes to access the kernel , **Kernel mode** and the **User mode** . 
+
+9. Modern architecture have 2 modes to access the kernel , **Kernel mode** and the **User mode** .
+
+  
 10. In kernel mode any instruction in the supported instruction is allowed . In user mode only a subset of instructions are allowed. Generally kernels and drivers run in kernel mode while application runs in user mode,
 ![modes](https://cpu.land/images/kernel-mode-vs-user-mode.png)
 
 11. Current privilege level (CPL) contains two least significant bits of the cs register. Two bits can store four possible rings . Rings 1 and 2 are designed to run drivers.
-12. Syscall or sytem call is **a way for programs to interact with the operating system**. A computer program makes a system call when it makes a request to the operating system's kernel.
-13. It provides a layer of security for user to not misuse the kernel 
-14. If you’ve ever written code that interacts with the OS, you’ll probably recognize functions like `open`, `read`, `fork`, and `exit`. Below a couple of layers of abstraction, these functions all use _system calls_ to ask the OS for help.
-15. Programs need to pass data to the operating system when triggering a syscall; the OS needs to know which specific system call to execute alongside any data the syscall itself needs.
-16. This is where **API**(Application programming interface) comes in . SInce it is widely immpractical for user to use the syscall for every program so we use the api .
+
+15. Syscall or sytem call is **a way for programs to interact with the operating system**. A computer program makes a system call when it makes a request to the operating system's kernel.
+16. It provides a layer of security for user to not misuse the kernel 
+17. If you’ve ever written code that interacts with the OS, you’ll probably recognize functions like `open`, `read`, `fork`, and `exit`. Below a couple of layers of abstraction, these functions all use _system calls_ to ask the OS for help.
+18. Programs need to pass data to the operating system when triggering a syscall; the OS needs to know which specific system call to execute alongside any data the syscall itself needs.
+19. This is where **API**(Application programming interface) comes in . SInce it is widely immpractical for user to use the syscall for every program so we use the api .

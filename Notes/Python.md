@@ -779,4 +779,52 @@ result = mylist[-3:-1] #location telling of the given list
 print(result)
 
 # this will give me the numbers at -1 location and -3 location ie [2,1]
+``` 
+
+
+101. **Turtle Module** - Using turtle module for creating various shapes . It opens up a small window that has a arrow that draws shape as we give instructions. 
+102. This is how we get started with turtle module
+```python 
+import turtle  # imports the module 
+bob = turtle.Turtle() # assigns a variable the value of the function 
+print(bob) # prints the variable
+turtle.mainloop() # mainloop to run the code [nothing is happening rn]
 ```
+
+103. Here we create an object with properties of Turtle and then we execute the methods associated with turtle library 
+104. `fd ` is a method used to make the turtle move forward, while `bk` is to move backwards `rt()` tells you to turn right with the angle inside the parenthesis and `lt()` for left turn .
+105. Code to create a *right angle* 
+```python 
+import turtle 
+bob = turtle.Turtle()
+
+bob.fd(100) # this is 100 pixels
+bob.lt(90) # this is 90 degrees 
+bob.fd(100)
+```
+
+106. We can repeat this process by writing the same code multiple times and create a *square* but it is better to use a **for loop** and put the main block of code inside it 
+```python
+for i in range(4)
+  bob.fd(100)
+  bob.lt(90)
+```
+
+107. **Encapsulation** - Wrapping up a piece of code up in a function is called encapsulation. One of the benefits is that it attaches a name to the code which serves as a kind of documentation.
+```python 
+def square(t):
+ for i in range(4):
+  t.fd(100)
+  t.lt(90)
+
+square(bob)
+```
+
+108. Inside the function t refers to the same turtle bob it is just that we use t instead of bob is so that we can accomodate any other turtle inside the same function. 
+```python 
+alice = Turtle()
+square(alice) # now the code gets executed as alice 
+```
+
+
+

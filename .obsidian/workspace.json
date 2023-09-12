@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Python.md",
+                "file": "Notes/Numpy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Python.md",
+                "file": "Notes/Numpy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Python.md",
+                "file": "Notes/Numpy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Python.md"
+                "file": "Notes/Numpy.md"
+              }
+            }
+          },
+          {
+            "id": "fb5321345dcc706f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -147,5 +157,7 @@
     }
   },
   "active": "8f35f476fb871f3a",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Notes/Python.md"
+  ]
 }

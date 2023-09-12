@@ -128,6 +128,8 @@ for item in Array1.flat:
 print(Array1.ndim) # prints out dimension of array ie 2 in this case 
 ```
 
+## Functions on Arrays 
+
 15. `np.size` tells the number of elements in an array 
 16. `np.nbytes` tells the size it takes inside the memory 
 17. `np.argmax` will tell the location of the maximum element of the array 
@@ -146,6 +148,24 @@ pyarr = [0,3,5,2]
 nparr = np.array(pyarr)
 sys.getsizeof(1) * len(pyarr) # len returns the number of items of the objects 
 ```
+
+26. `a.sum` to find the sum of arrays 
+27. `a.mean()` to find the mean of the elements of the array 
+28. `a.max()` to find the number of elements 
+29. `a.cumsum()` cumulative sum of the elements 
+30. `cumprod()` cumulative product of the elements of a matrix 
+31. `a.var()` variance 
+32. `a.std()` standard deviation 
+33. To find the matrix multiplication of a matrix and a vector we can use the `@` function 
+```python 
+a = np.array((1,2))
+b = np.array((2,2))
+
+a @ b # this will give out the dot product 
+
+a @ (0,1) # this will perform column vector multiplication 
+```
+
 
 You can access the [numpy library](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) and see all other methods and attributes for arrays 
 

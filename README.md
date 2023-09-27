@@ -33,6 +33,9 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
     * [Numpy](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Numpy.md)
     * [Pandas](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Pandas.md)
 
+### 3. Computer Science
+
+
 * [CPU](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/CPU.md)
 
 

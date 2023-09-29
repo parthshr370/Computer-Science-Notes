@@ -88,3 +88,17 @@ With the `-f` tag you will override the remote branch code with your local repo 
 
 41. `git whatchanged --since "1 week"` will give you all the changes made to repository in the timeframe
 
+## How to create a Pull Request 
+
+1. A way to submit you contribution to another devs repository 
+2. Go to the github repo you want to contribute to 
+3. **Fork the repo**  into your very own github account 
+4. **Clone your fork** into your local machine 
+5. Open the project into the code editor 
+6. Use `git branch < branchName >` to create a branch 
+7. Use **git checkout** to move to the new branch 
+8. After making the changes use `git add `to put the file in the staging area 
+9. Then use`git commit -m "displaymessage"`
+10. Push the commit by using `git push origin < branch name >` 
+11. You can now go to github and start a **pull request** 
+12. Make sure you follow the contribution guidelines before creating a pull request 

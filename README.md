@@ -37,6 +37,8 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 
 
 * [CPU](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/CPU.md)
+* [Bash]()
+
 
 
 

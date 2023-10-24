@@ -820,11 +820,81 @@ def square(t):
 square(bob)
 ```
 
-108. Inside the function t refers to the same turtle bob it is just that we use t instead of bob is so that we can accomodate any other turtle inside the same function. 
-```python 
-alice = Turtle()
-square(alice) # now the code gets executed as alice 
+
+108. **List comprehension** in *Python* is a *concise way to create lists from existing iterables*. It is a one-liner that can replace a for loop and append() statements.
+
+109. The syntax for a list comprehension is as follows:
+```python
+[expression for item in iterable if condition]
+```
+
+- **expression** is the *new value that will be added* to the list.
+- **item** is a *variable that represents each item* in the iterable.
+- **iterable** is a *list*, *tuple*, *string*, or other *object* that can be iterated over.
+- **condition** is an optional expression that must evaluate to True in order for the item to be added to the list.
+
+```python
+# Create a list of all the even numbers from 1 to 10.
+even_numbers = [x for x in range(1, 11) if x % 2 == 0]
+
+# Print the list.
+print(even_numbers)
+```
+
+```
+[2, 4, 6, 8, 10] {output}
 ```
 
 
+110. The following code creates a list of all the squares of the numbers from 1 to 10:
+```python
+# Create a list of all the squares of the numbers from 1 to 10.
+squares = [x**2 for x in range(1, 11)]
+
+# Print the list.
+print(squares)
+```
+
+```
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100] {output}
+```
+
+111. For nested list iterations 
+```python 
+# Create a list of all the possible combinations of two numbers from 1 to 10.
+combinations = [[x, y] for x in range(1, 11) for y in range(1, 11)]
+
+# Print the list.
+print(combinations)
+```
+
+```
+[[1, 1], [1, 2], ..., [9, 10], [10, 1], ..., [10, 10]] 
+```
+
+111. **Arbitrary Positional Arguments:** Arbitrary positional arguments allow you to *pass an indefinite number of positional arguments to a function*. These arguments are collected in a tuple.
+```python
+def greet(*names):
+  for name in names:
+    print("Hello,", name)
+greet("Alice", "Bob", "Charlie") #indefinite amount of arguments can be put inside the parenthesis 
+```
+
+112. **Arbitrary Keyword Arguments:** Arbitrary keyword arguments allow you to pass an indefinite number of keyword arguments to a function. *These arguments are collected in a dictionary.*
+```python
+def greet(**info):
+  for key, value in info.items():
+    print(key, ":", value)
+
+greet(name="Alice", age=30, city="New York") # dictionary is used here 
+```
+
+113. The `__name__ == '__main__'` construct in Python is *used to check if the current module is being run as the main program or imported as a module*.
+   - When a Python script is run, the interpreter sets the `__name__` variable to the string `'__main__'`. If the file is being imported as a module, then the `__name__` *variable is set to the name of the module instead.*
+   - By checking the value of `__name__` using the `__name__ == '__main__'` condition, you can *control which code is executed in different scenarios*.
+   - For example, the following code will print "Hello, world!" if the script is run directly, but it will do nothing if the module is imported:
+```python 
+if __name__ == '__main__':
+  print("Hello, world!")
+```
 

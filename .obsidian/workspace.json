@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Git and Github.md",
+                "file": "Notes/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e93510b67d7f56b1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Git and Github.md",
+                "file": "Notes/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Git and Github.md",
+                "file": "Notes/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Git and Github.md"
+                "file": "Notes/Python.md"
               }
             }
           },
@@ -157,8 +156,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "551d1af9c085425c",
+  "active": "8f35f476fb871f3a",
   "lastOpenFiles": [
+    "Notes/Java Notes.md",
     "README.md",
     "Notes/Pandas.md",
     "Notes/Numpy.md",

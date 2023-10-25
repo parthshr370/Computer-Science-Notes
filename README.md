@@ -3,7 +3,7 @@
 
 
 
-`My personal notes` on various computer science topics, gathered over 1 year of learning.
+`My personal notes` on various computer science topics, gathered over 2 years of learning.
 
 I am still learning about a lot of things and will be **uploading notes** for everything I learn during my **journey**.
 

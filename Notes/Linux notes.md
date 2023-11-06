@@ -84,14 +84,21 @@ _**COMMAND LINE CODES**_
 77.  `lspci` is a command on Unix-like operating systems that prints ("lists") detailed information about all PCI buses and devices in the system
 78. `.` means the current directory `..` means the previous directory
 79.  `echo $PATH` to find which directories your shell is set to check for executable files.
-78.  Notes on using vim in linux terminal
-79. `pwd` command prints out the current working directory (root for most cases)
-80. `last` will show the user login history
-81. `who` tells about who is logged in 
-82. `ip addr` to display ip details 
-85. `ip route show` will display routing table containing info about network destination 
-86. 
+80. `pwd` command prints out the current working directory (root for most cases)
+81. `last` will show the user login history
+82. `who` tells about who is logged in 
+83. `ip addr` to display IP details 
+84. `ip route show` will display routing table containing info about network destination 
+85. `uname -a` to show the kernel version of the Linux system
+86. `df -ah` to check free disk space can also use `df -h`
+87. `du -sh code` to check the size of a directory 
+88. `netstat` to check the open ports
+89. `ps aux | grep ngnix`  to check CPU info and other process information 
+90. `lsof` to find the list of open files in Linux
 
+
+
+## Master Vim with these commands 
 -   `vim hello.c` will create the file and then vim opens up in the terminal
 -   `vim filename.txt` to open a text file in vim text editor
 -   `:w` to save the file

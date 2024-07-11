@@ -39,10 +39,17 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 * [CPU](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/CPU.md)
 
 
-### 4. Data Science
+### 4. Machine Learning/ Deep Learning
 
 * [Intro to Data Analytics](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Intro%20to%20Data%20Analytics.md)
+* [Pytorch Practice](https://github.com/parthshr370/Pytorch-Practice)
+* [EEG Medical Image Using Machine Learning](https://github.com/parthshr370/EEG/)
 
+
+
+### 5. Process Mining
+
+* [Process Mining - Data Science in action Notes](https://github.com/parthshr370/Process-Mining/)
 
 
 

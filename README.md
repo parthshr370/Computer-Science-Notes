@@ -50,7 +50,7 @@ The topmost topics like **Linux , Networking , Git** (I beleive) will act like a
 ### 5. Process Mining
 
 * [Process Mining - Data Science in action Notes](https://github.com/parthshr370/Process-Mining/)
-* [Getting Started with PM4PY](https://github.com/parthshr370/Notes/pm4py.md)
+* [Getting Started with PM4PY]([https://github.com/parthshr370/Notes/pm4py.md](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/pm4py.md))
 
 
 

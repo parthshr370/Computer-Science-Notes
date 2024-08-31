@@ -3,7 +3,7 @@
 
 
 
-`My personal notes` on various computer science topics, gathered over 2 years of learning.
+`My personal notes` on various computer science and machine learning topics, gathered over 3 years of learning.
 
 I am still learning about a lot of things and will be **uploading notes** for everything I learn during my **journey**.
 
@@ -11,6 +11,7 @@ The notes will follow a **hierarchical order** for anyone who wants to get into 
 
 The topmost topics like **Linux , Networking , Git** (I beleive) will act like a side quest in your main Game(Journey) to get you ready for the real ComputerScience stuff. 
 
+I have also dived into research recently and will post some learning about the topics I research on mostly Process Mining , BCI and Deep learning in general
 
 ## ***Available notes:***
 

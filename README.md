@@ -43,6 +43,7 @@ I have also dived into research recently and will post some learning about the t
 ### 4. Machine Learning/ Deep Learning
 
 * [Intro to Data Analytics](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Intro%20to%20Data%20Analytics.md)
+* [Pytorch FastAI Notes](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Pytorch%20FasAI.md)
 * [Pytorch Practice](https://github.com/parthshr370/Pytorch-Practice)
 * [EEG Medical Image Using Machine Learning](https://github.com/parthshr370/EEG/)
 

@@ -56,6 +56,12 @@ I have also dived into research recently and will post some learning about the t
 
 
 
+### 6. Linear Algebra ( HandWritten )
+* [Linear Algebra Part 1](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Linear_Algebra_Part1.pdf)
+* [Linear Algebra Part 2](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Linear_Algebra_Part2.pdf)
+* [Linear Algebra Part 3](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Linear%20algebra%20Part%203%20By%20Parth%20Sharma%20.pdf)
+
+
 
 
 

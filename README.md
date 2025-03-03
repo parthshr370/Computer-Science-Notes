@@ -47,6 +47,9 @@ I have also dived into research recently and will post some learning about the t
 * [Pytorch Practice](https://github.com/parthshr370/Pytorch-Practice)
 * [EEG Medical Image Using Machine Learning](https://github.com/parthshr370/EEG/)
 
+#### 4.1 Machine Learning Statquest ( Handwritten ) 
+* [Machine Learning 1-24 Statqest](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/Machine%20learning%20statquest%201-24%20Parth%20Sharma%20.pdf)
+* [Machine Learning 25-36 Statquest](https://github.com/parthshr370/Computer-Science-Notes/blob/main/Notes/machine%20learning%20statquest%2025-36%20parth%20sharma.pdf)
 
 
 ### 5. Process Mining
